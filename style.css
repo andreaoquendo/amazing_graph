@@ -6,13 +6,75 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+  box-sizing: border-box;
+  color: var(--light-gray);
+  min-width: 350px;
+  overflow: scroll;
 }
 
-@media screen and (max-width: 800px) {
-  /* Estilos */
-  .principal,
-  .secundario {
-    width: 100%;
-    float: none;
+a {
+  color: var(--light-gray);
+  text-decoration: none;
+}
+
+#top-logo {
+  font-weight: bold;
+  font-size: 30px;
+  color: var(--dark-orange);
+}
+
+.header {
+  position: relative;
+  margin: 42px 30px 0 32px;
+  height: auto;
+}
+
+.menu {
+  display: none;
+}
+
+.menu-icon {
+  display: block;
+  width: 21px;
+  height: 24px;
+
+  position: absolute;
+  top: 3px;
+  right: 0;
+}
+
+.menu-icon li {
+  width: 21px;
+  height: 3px;
+  margin-bottom: 3px;
+  background-color: var(--side-bar);
+}
+
+@media screen and (min-width: 500px) {
+  #top-logo {
+    font-size: 23px;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+  .menu {
+    position: absolute;
+    display: block;
+    list-style: none;
+    font-size: 16px;
+
+    width: auto;
+    height: auto;
+    top: 0;
+    right: 0px;
+  }
+
+  .menu li {
+    display: inline-block;
+    line-height: 23px;
+    margin-left: 15px;
   }
 }
