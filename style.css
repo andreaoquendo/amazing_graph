@@ -1,0 +1,18 @@
+:root {
+  --dark-orange: #d2872c;
+  --light-gray: #766f68;
+  --side-bar: #5b4c4c;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+@media screen and (max-width: 800px) {
+  /* Estilos */
+  .principal,
+  .secundario {
+    width: 100%;
+    float: none;
+  }
+}
