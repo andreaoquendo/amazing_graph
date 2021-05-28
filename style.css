@@ -11,12 +11,16 @@ body {
   box-sizing: border-box;
   color: var(--light-gray);
   min-width: 350px;
-  overflow: scroll;
 }
 
 a {
   color: var(--light-gray);
   text-decoration: none;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 41px;
 }
 
 #top-logo {
@@ -50,6 +54,47 @@ a {
   height: 3px;
   margin-bottom: 3px;
   background-color: var(--side-bar);
+}
+
+#team-image {
+  width: 320px;
+  height: 186px;
+  display: block;
+  margin: 0 auto;
+}
+
+.page {
+  width: 100%;
+  margin-top: 80px;
+  text-align: center;
+}
+
+.page h1 {
+  margin: 36px auto 40px auto;
+
+  letter-spacing: -1px;
+  width: 280px;
+  text-align: center;
+}
+
+.page span {
+  display: block;
+  width: 305px;
+  margin: 0 auto;
+  line-height: 24px;
+}
+
+.principal-button {
+  width: 263px;
+  background-color: var(--dark-orange);
+  border-radius: 19px;
+  padding: 24px 0;
+
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+
+  margin: 43px auto;
 }
 
 @media screen and (min-width: 500px) {
