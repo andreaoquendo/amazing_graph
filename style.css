@@ -197,11 +197,11 @@ h1 {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1300px) {
   .page {
     margin-left: auto;
     margin-right: auto;
-    width: 1200px;
+    width: 1300px;
   }
 
   .page {
@@ -213,7 +213,7 @@ h1 {
     position: absolute;
     width: 800px;
     height: auto;
-    top: 30px;
+    top: 0px;
     right: 0px;
   }
 
